@@ -29,21 +29,27 @@
         } 
         h2{
             font-family: "Open Sans",sans-serif;
+            position: relative;
+            left: 10%;
         }
         .thead{
             background-color: #f7f7f7;
         }
+        label{
+            float: right;
+        }
     </style>  
   </head>
   <body>
-    
+  <label>CLIQUE NO BOTAO AZUL PARA VISUALIZAR O CRUD</label>
         <div class="container">
             <h2 class="text-center">Lista clientes<i class="bi bi-people-fill"></i></h2>
 
+
             <h5 class="text-end">
-                <a href="view/page_register.php" class="btn btn-primary btn-xs">
+            <a href="view/page_register.php" class="btn btn-primary btn-xs">
                 <i class="bi bi-preson-plus-fill"></i>
-                </a>
+            </a>
             </h5>
 
             <div class="table-responsive">
@@ -63,12 +69,12 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Maria Fernanda</td>
-                            <td>mariafernanda@gmail.com</td>
+                            <td>Marco Henrique</td>
+                            <td>marcohenrique@gmail.com</td>
                             <td>333.444.555-33</td>
-                            <td>11/10/2003</td>
+                            <td>12/07/2004</td>
                             <td>Av. Santos da Silva, 101</td>
-                            <td>(310 2232-33232)</td>
+                            <td>(31) 9 9999999</td>
                             <td>
                                 <form method="POST">
                                     <button class="btn btn-warning btn-xs">

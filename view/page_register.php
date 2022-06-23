@@ -68,8 +68,8 @@
                     </div>
 
                     <div class="col-md-12 text-end">
-                        <button class="btn btn-primary btn-lg" type="submit">Cadastrar</button>
-                        <a class="btn btn-sucess btn-lg" href="../index.php">Cancelar</a>
+                        <button class="btn btn-primary btn-lg" href="../index.php" type="submit"> Cadastrar </button>
+                        <a class="btn btn-sucess btn-lg" href="../index.php"> Cancelar </a>
                     </div>
 
                 </div>
